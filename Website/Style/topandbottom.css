@@ -1,0 +1,49 @@
+
+
+header {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr; /* Три колонки: лого слева, меню по центру, соцсети справа */
+    align-items: center; /* Выравнивание по вертикали по центру */
+    padding: 10px; /* Отступы внутри header */
+    background-color: rgb(245, 253, 255); /* Фон для наглядности */
+    border-bottom: 1px solid #ccc; /* Граница снизу */
+}
+
+.logo {
+    justify-self: start; /* Лого прижимаем к левому краю */
+    padding-left: 3%;
+}
+
+.menu {
+    display: flex;
+    gap: 20px; /* Расстояние между пунктами меню */
+    justify-self: center; /* Меню по центру */
+
+}
+
+.social {
+    display: flex;
+    gap: 40px; /* Расстояние между иконками соцсетей */
+    justify-self: end; /* Соцсети прижимаем к правому краю */
+    padding-right: 8%;
+}
+
+.socialimg {
+    width: 80%;
+    height: auto;
+}
+
+.logoimg {
+    width: 90%;
+    height: auto;
+}
+
+
+.bottom{
+    display: grid;
+    grid-template-columns: 1fr auto 1fr; /* Три колонки: лого слева, меню по центру, соцсети справа */
+    align-items: center; /* Выравнивание по вертикали по центру */
+    padding: 10px; /* Отступы внутри header */
+    background-color: rgb(245, 253, 255); /* Фон для наглядности */
+    border-top: 1px solid #ccc; /* Граница снизу */
+}

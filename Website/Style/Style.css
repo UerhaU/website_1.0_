@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('Style/Assets/fonts/Inter_18pt-Thin.ttf') format('truetype');
+
+}
+
+body {
+    font-family: 'MyCustomFont', sans-serif;
+    background-color: rgb(245, 253, 255); /* Цвет фона */
+    margin-top: 0;
+    margin-bottom: 0;
+}

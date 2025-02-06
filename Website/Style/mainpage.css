@@ -1,0 +1,28 @@
+.banner {
+    background-color: rgb(223, 248, 255);
+    height: 500px;
+    width: 1000px;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 500px;
+
+    
+    overflow: hidden;
+}
+
+.banner img {
+    display: flex;
+    justify-self: end;
+    height: 500px;
+
+}
+.inbannertext {
+    display: grid;
+    grid-template-rows: auto;
+    margin-left: 25px;
+}
+
