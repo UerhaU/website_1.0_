@@ -101,3 +101,13 @@
     grid-template-rows: 100px;
     gap: 20px;
 }
+.avt {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.avt img {
+    width: 30px;
+    height: auto;
+}
