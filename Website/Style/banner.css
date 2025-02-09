@@ -140,6 +140,7 @@
     grid-template-rows: 35px;
     align-items: center;
     background-color: black;
+    transition: background-color 0.2s ease;
 
 }
 
@@ -154,11 +155,15 @@
     color: white;
 }
 
-.clickrecept a {
+.view a {
     text-decoration: none;
 }
 
 .view {
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+
+.clickrecept:hover {
+    background-color: rgb(92, 92, 92);
 }
